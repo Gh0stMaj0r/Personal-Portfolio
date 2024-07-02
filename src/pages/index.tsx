@@ -21,7 +21,7 @@ const Page = () => {
           <mark className="marked-text">M-Technology Oy</mark>
         </p>
         <div className="home-links-flex">
-          <a rel="noreferrer noopener nofollow" className="home-link" target="_blank">
+          <a href="/Projects" rel="noreferrer noopener nofollow" className="home-link">
             <div className="home-link-left">
               <GoRocket className="link-icon"/>
               <span>Personal Projects</span>
@@ -30,7 +30,7 @@ const Page = () => {
               <IoIosArrowRoundForward className="link-icon"/>
             </div>
           </a>
-          <a rel="noreferrer noopener nofollow" className="home-link" target="_blank">
+          <a href="https://drive.google.com/file/d/1EcGhy4WVRWvZxDmidB1l7vM35AgBU2If/view?usp=sharing" rel="noreferrer noopener nofollow" className="home-link" target="_blank">
             <div className="home-link-left">
               <FaFilePdf className="link-icon"/>
               <span>Download CV (.PDF)</span>
@@ -51,13 +51,19 @@ const Page = () => {
           </hgroup>
           <div className="socials">
             <a className="social-media" target="_blank">
-              <FiGithub/>
+              <div className="tooltip"><FiGithub/>
+                <span className="tooltiptext">Github</span>
+              </div>
             </a>
             <a className="social-media" target="_blank">
-              <SlSocialSteam/>
+              <div className="tooltip"><SlSocialSteam/>
+                <span className="tooltiptext">Steam</span>
+              </div>
             </a>
             <a className="social-media" target="_blank">
-              <AiOutlineLinkedin/>
+              <div className="tooltip"><AiOutlineLinkedin/>
+                <span className="tooltiptext">Linkedin</span>
+              </div>
             </a>
           </div>    
         </div>
