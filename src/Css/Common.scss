@@ -17,3 +17,10 @@ main {
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+  main {
+    height: auto;
+    position: relative;
+  }
+}

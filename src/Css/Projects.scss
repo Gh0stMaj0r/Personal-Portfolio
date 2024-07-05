@@ -4,7 +4,7 @@
   gap: 64px;
   position: absolute;
   top: 128px;
-  width: 1110px;
+  max-width: 1200px;
 }
 
 .projects-heading {
@@ -105,4 +105,19 @@
     color: #1f1f1f;
     font-weight: 500;
   }
+}
+
+@media only screen and (max-width: 1000px) {
+  .projects-flex {
+    width: auto;
+  }
+  
+  .project-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .project-card {
+    width: 90vw;
+  }
+  
 }
