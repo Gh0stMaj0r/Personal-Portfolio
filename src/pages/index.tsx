@@ -50,17 +50,17 @@ const Page = () => {
             <h4 className="heading-small">Software Developer / Full-Stack Developer</h4>
           </hgroup>
           <div className="socials">
-            <a className="social-media" target="_blank">
+            <a href="https://github.com/Gh0stMaj0r" className="social-media" target="_blank">
               <div className="tooltip"><FiGithub/>
                 <span className="tooltiptext">Github</span>
               </div>
             </a>
-            <a className="social-media" target="_blank">
+            <a href="https://steamcommunity.com/id/Gh0stMaj0r/" className="social-media" target="_blank">
               <div className="tooltip"><SlSocialSteam/>
                 <span className="tooltiptext">Steam</span>
               </div>
             </a>
-            <a className="social-media" target="_blank">
+            <a href="https://www.linkedin.com/in/arttu-suhonen" className="social-media" target="_blank">
               <div className="tooltip"><AiOutlineLinkedin/>
                 <span className="tooltiptext">Linkedin</span>
               </div>
