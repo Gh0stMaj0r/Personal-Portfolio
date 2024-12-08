@@ -17,7 +17,7 @@ const Page = () => {
       <section className="home-flex">
       <div className="home-left">
         <p className="intro">
-          I'm 21-years old Full-Stack Developer from Finland. Currently working as an Intern at&nbsp;
+          I'm 22-years old Full-Stack Developer from Finland. Currently working as an Software Developer at&nbsp;
           <mark className="marked-text">M-Technology Oy</mark>
         </p>
         <div className="home-links-flex">
