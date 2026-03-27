@@ -16,10 +16,9 @@ const Page = () => {
     <main>
       <section className="home-flex">
       <div className="home-left">
-        <p className="intro">
-          I'm 22-years old Full-Stack Developer from Finland. Currently working as an Software Developer at&nbsp;
-          <mark className="marked-text">M-Technology Oy</mark>
-        </p>
+      <p className="intro">
+        I'm a 23-year-old <mark className="marked-text">Full-Stack Developer</mark> from Finland focused on building modern web apps.
+      </p>
         <div className="home-links-flex">
           <a href="/Projects" rel="noreferrer noopener nofollow" className="home-link">
             <div className="home-link-left">
