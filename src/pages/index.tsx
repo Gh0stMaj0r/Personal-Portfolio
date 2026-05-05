@@ -29,7 +29,7 @@ const Page = () => {
               <IoIosArrowRoundForward className="link-icon"/>
             </div>
           </a>
-          <a href="/CV.pdf" rel="noreferrer noopener nofollow" className="home-link" target="_blank">
+          <a href="/Resume.pdf" rel="noreferrer noopener nofollow" className="home-link" target="_blank">
             <div className="home-link-left">
               <FaFilePdf className="link-icon"/>
               <span>Download CV (.PDF)</span>
