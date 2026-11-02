@@ -8,8 +8,8 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { SlSocialSteam } from "react-icons/sl";
 import { FiGithub } from "react-icons/fi";
 
-import '../Css/Home.scss'
-import '../Css/Common.scss'
+import '../Css/Home.scss';
+import '../Css/Common.scss';
 
 const Page = () => {
   return (
@@ -17,7 +17,8 @@ const Page = () => {
       <section className="home-flex">
       <div className="home-left">
       <p className="intro">
-        I'm a 23-year-old <mark className="marked-text">Full-Stack Developer</mark> from Finland focused on building modern web apps.
+        I'm a 24-year-old <mark className="marked-text">Full-Stack Developer</mark> from Finland focused on building modern web apps.
+        Currently working as Software Developer in <mark className="marked-text">CSE Entertainment</mark>
       </p>
         <div className="home-links-flex">
           <a href="/Projects" rel="noreferrer noopener nofollow" className="home-link">
